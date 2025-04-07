@@ -4,9 +4,9 @@
         <attribute name="name" value="ARCADE"/>
         <attribute name="authors" value="valex"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-04-02 10:11:31 p. m."/>
+        <attribute name="saved" value="2025-04-02 10:24:50 p. m."/>
         <attribute name="created" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTAyOzEwOjAxOjI1IHAuIG0uOzI1MDc="/>
-        <attribute name="edited" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTAyOzEwOjExOjMxIHAuIG0uOzE7MjYxMw=="/>
+        <attribute name="edited" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTAyOzEwOjI0OjUwIHAuIG0uOzI7MjYxOQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,7 +24,7 @@
                             <output expression="&quot;Alegrate tienes que pagar 200 varos :3 &quot;" newline="True"/>
                         </then>
                         <else>
-                            <output expression="&quot;WoW eres millonario, tendras que pagar 500 varucoa B)&quot;" newline="True"/>
+                            <output expression="&quot;WoW eres millonario, tendras que pagar 500 varucos B)&quot;" newline="True"/>
                         </else>
                     </if>
                 </else>
