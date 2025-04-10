@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fibonacci"/>
+        <attribute name="authors" value="valex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-10 07:21:10 a. m."/>
+        <attribute name="created" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTEwOzA3OjA5OjI4IGEuIG0uOzI1MDg="/>
+        <attribute name="edited" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTEwOzA3OjIxOjEwIGEuIG0uOzE7MjYwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#191;Cuantos numeros quieres ver?&quot;" newline="True"/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="0"/>
+            <input variable="num"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <declare name="l" type="Integer" array="False" size=""/>
+            <assign variable="l" expression="1"/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <assign variable="e" expression="0"/>
+            <declare name="sig" type="Integer" array="False" size=""/>
+            <while expression="e&lt;num">
+                <output expression="a" newline="True"/>
+                <assign variable="sig" expression="a+l"/>
+                <assign variable="a" expression="l"/>
+                <assign variable="l" expression="sig"/>
+                <assign variable="e" expression="e+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

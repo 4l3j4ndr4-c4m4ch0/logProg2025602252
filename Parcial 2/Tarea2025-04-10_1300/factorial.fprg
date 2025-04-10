@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="factorial"/>
+        <attribute name="authors" value="valex"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-10 07:25:49 a. m."/>
+        <attribute name="created" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTEwOzA3OjIxOjIyIGEuIG0uOzI0OTY="/>
+        <attribute name="edited" value="dmFsZXg7QUxFWENBTTsyMDI1LTA0LTEwOzA3OjI1OjQ5IGEuIG0uOzE7MjYxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="0"/>
+            <input variable="num"/>
+            <declare name="f" type="Integer" array="False" size=""/>
+            <assign variable="f" expression="1"/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <assign variable="v" expression="1"/>
+            <while expression="v&lt;=num">
+                <assign variable="f" expression="f*v"/>
+                <assign variable="v" expression="v+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
